@@ -1,0 +1,43 @@
+html {
+ height: 100%;
+}
+
+body{
+
+    margin-top: 80px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-style:italic;
+    background-image: url("fall_foliage_autumn_leaves.jpg");
+    background-color:plum;
+    
+
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .test {
+    text-align: center;
+    border: thin solid #666;
+    width: 60%;
+    height: 30px;
+    border-radius: 0 2em 0 2em;
+  }
+  #btn{
+    background-color:peru;
+    color: white;
+    width: 30%;
+
+  }
+  
+  
